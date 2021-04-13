@@ -1,0 +1,88 @@
+body{
+    font-size: 18px;
+    font-weight: 400;
+    font-family:'open sans',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image:url(../images/bg-hero-desktop.svg);
+    background-color:  hsl(193, 100%, 96%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+nav{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.img-box{
+    margin-left: 56px;
+}
+.button-box{
+    margin-right: 56px;
+}
+.btn1{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    border:1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 21px;
+    background-color: white;
+    box-shadow: 0px 4px 1px 2px #008b8b14;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    margin-left: 54px;
+    margin-right: 54px;
+}
+.tty{
+    width: 600px;
+    height: 400px;
+}
+p desc{
+    line-height: 29px;
+}
+.title{
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+}
+.text-w{
+    margin-top: 54px;
+}
+.btn2{
+    text-decoration: none;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    margin-left: 54px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 19px;
+}
+.ucom{
+    background-color: white;
+    height: 120vh;
+}
+
+.btn3{
+    border: 150px solid hsl(193deg 100% 96% / 25%);
+    display: flex;
+    color:black;
+    margin-left: 54px;
+    margin-right: 54px;
+    margin-top: 60px;
+    border-radius: 5px;
+    text-decoration: none;
+    /* box-shadow: 2px 15px 2px 1px black; */
+
+}
