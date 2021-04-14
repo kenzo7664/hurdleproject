@@ -73,16 +73,34 @@ p desc{
     background-color: white;
     height: 120vh;
 }
-
-.btn3{
-    border: 150px solid hsl(193deg 100% 96% / 25%);
-    display: flex;
-    color:black;
+.text-w2{
+    border: 1px solid hsl(220, 11%, 95%);
     margin-left: 54px;
     margin-right: 54px;
-    margin-top: 60px;
-    border-radius: 5px;
-    text-decoration: none;
-    /* box-shadow: 2px 15px 2px 1px black; */
-
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 9px;
+    box-shadow: 2px 2px 1px 1px hsl(208, 11%, 55%);
+    
 }
+.uv{
+    height: 320px;
+    width: 400px;
+    margin-right: 35px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.tr{
+    display: flex;
+ }
+ .txt2{
+    padding-top: 200px;
+    padding-right: 120px;
+ }
+ .txtz{
+    margin-top: 70px;
+    margin-left: 95px;
+    display: flex;
+    justify-content: space-around;
+} 
