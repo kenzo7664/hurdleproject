@@ -71,36 +71,80 @@ p desc{
 }
 .ucom{
     background-color: white;
-    height: 120vh;
+    height: 80vh;
 }
-.text-w2{
-    border: 1px solid hsl(220, 11%, 95%);
-    margin-left: 54px;
-    margin-right: 54px;
-    margin-top: 90px;
+.tuy{
+    width: 281px;
+    height: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+}
+.gt{
+    border: 1px solid hsl(209deg 32% 77% / 17%);
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 56px;
+    margin-right: 56px;
+    box-shadow:-2px 1px 5px -4px hsl(208, 11%, 55%);
     display: flex;
     justify-content: space-between;
-    border-radius: 9px;
-    box-shadow: 2px 2px 1px 1px hsl(208, 11%, 55%);
-    
 }
-.uv{
-    height: 320px;
-    width: 400px;
-    margin-right: 35px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+.text-w2{
+    padding-left: 70px;
+    padding-top: 80px;
 }
-.tr{
+.tpy{
+    width: 281px;
+    height: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 54px; 
+}
+.fc{
+    border: 1px solid hsl(209deg 32% 77% / 17%);
+    border-radius: 10px;
+    margin-top: 32px;
+    margin-left: 56px;
+    margin-right: 56px;
+    box-shadow:-2px 1px 5px -4px hsl(208, 11%, 55%);
     display: flex;
- }
- .txt2{
-    padding-top: 200px;
-    padding-right: 120px;
- }
- .txtz{
-    margin-top: 70px;
-    margin-left: 95px;
+    justify-content: space-between;
+}
+.text-w3{
+    padding-right:50px;
+    padding-top: 85px;
+}
+.toy{
+    width: 281px;
+    height: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+}
+.yu{
+    border: 1px solid hsl(209deg 32% 77% / 17%);
+    border-radius: 10px;
+    margin-top: 32px;
+    margin-left: 56px;
+    margin-right: 56px;
+    box-shadow:-2px 1px 5px -4px hsl(208, 11%, 55%);
     display: flex;
-    justify-content: space-around;
-} 
+    justify-content: space-between; 
+}
+.text-w4{
+    padding-left: 70px;
+    padding-top: 80px;
+}
+.vbot{
+    border: 1px solid hsl(209deg 32% 77% / 17%) ;
+    margin-top: 50px;
+    margin-left: 56px;
+    margin-right: 800px;
+    border-radius: 10px;
+}
+.er{
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
