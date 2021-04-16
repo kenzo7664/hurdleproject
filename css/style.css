@@ -43,6 +43,7 @@ nav{
     margin-left: 54px;
     margin-right: 54px;
 }
+
 .tty{
     width: 600px;
     height: 400px;
@@ -68,10 +69,11 @@ p desc{
     padding-right: 40px;
     border: 1px solid hsl(322, 100%, 66%);
     border-radius: 19px;
+    box-shadow: 1px 1px 1px 2px hsl(208deg 11% 55% / 9%) ;
 }
 .ucom{
-    background-color: white;
-    height: 80vh;
+    background-color: blue;
+    height: 80px;
 }
 .tuy{
     width: 281px;
@@ -80,10 +82,12 @@ p desc{
     padding-bottom: 30px;
     padding-right: 20px;
 }
+
 .gt{
     border: 1px solid hsl(209deg 32% 77% / 17%);
     border-radius: 10px;
     margin-top: 100px;
+    margin-bottom: 35px;
     margin-left: 56px;
     margin-right: 56px;
     box-shadow:-2px 1px 5px -4px hsl(208, 11%, 55%);
@@ -104,7 +108,6 @@ p desc{
 .fc{
     border: 1px solid hsl(209deg 32% 77% / 17%);
     border-radius: 10px;
-    margin-top: 32px;
     margin-left: 56px;
     margin-right: 56px;
     box-shadow:-2px 1px 5px -4px hsl(208, 11%, 55%);
@@ -137,14 +140,71 @@ p desc{
     padding-top: 80px;
 }
 .vbot{
-    border: 1px solid hsl(209deg 32% 77% / 17%) ;
-    margin-top: 50px;
-    margin-left: 56px;
-    margin-right: 800px;
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    ;
+    
 }
 .er{
+    border: 2px solid hsl(208deg 11% 55% / 26%);
+    margin-top: 62px;
+    border-radius: 10px;
+    width: 500px;
     padding-left: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
+    position: relative;
+    top: 63px;
+    background-color: #fff
+}
+footer{
+    background-color: hsl(192, 100%, 9%);
+    height: 350px;
+    color: #fff;
+}
+.footer-box{
+   
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 56px;
+    padding-right: 50px;
+    
+}
+
+.B{
+    padding-top: 50px;
+    padding-left: 0px;
+}
+.c{
+    padding-top: 50px;
+}
+.b-child{
+    list-style: none;
+}
+.c-child{
+    list-style: none;
+}
+.foot-right{
+    float: right;
+}
+.ender{
+    padding-left: 15px;
+    margin-top: -6px;
+    margin-bottom: 29px;
+}
+.btn3{
+    text-decoration: none;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 19px;
+    box-shadow: 1px 1px 1px 2px hsl(208deg 11% 55% / 9%) ;
 }
