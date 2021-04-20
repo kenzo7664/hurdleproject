@@ -1,5 +1,5 @@
 /* Extra small devices small mobile phones*/
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     div.banner {
         display: flex;
         flex-direction: column;
@@ -183,3 +183,5 @@ footer {
         margin: 0;
         padding: 0;
     }
+    /* Medium devices small screens and laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
