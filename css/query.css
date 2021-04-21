@@ -137,19 +137,19 @@ footer {
     .gt {
         display: flex;
          flex-direction: column-reverse;
-         width: 148%;
+         width: 145%;
     
          margin-left: 53px;
     }
     .fc {
         display: flex;
         flex-direction: column;
-        width: 148%;
+        width: 145%;
     }
     .yu {
         display: flex;
         flex-direction: column-reverse;
-        width: 148%;
+        width: 145%;
     }
     .header{
         width: 174%;
