@@ -1,5 +1,5 @@
 /* Extra small devices small mobile phones*/
-@media only screen and (min-width: 375px) and (max-width:812px) {
+@media only screen and (max-width: 480px) {
     div.banner {
         display: flex;
         flex-direction: column;
@@ -7,8 +7,10 @@
     }
     .gt {
         display: flex;
-        flex-direction: column-reverse;
-        width: 142%;
+         flex-direction: column-reverse;
+         width: 135%;
+    
+         margin-left: 103px;
     }
     .fc {
         display: flex;
@@ -29,7 +31,7 @@
         background-image: url(../images/bg-hero-desktop.svg);
         background-repeat: no-repeat;
         height: 151vh;
-        width: 700px;
+        width: 174%;
     }
     .logo{
         width: 100%
@@ -38,10 +40,11 @@
         margin-left: 8px;
     }
    .btn2{
-       margin-left: 136px;
+       margin-left: 268px;
    }
    .tty{
-       margin-bottom: 30px;
+    margin-bottom: 30px;
+    padding-left: 130px;
    }
    .text-w{
        margin-bottom: 15px;
@@ -49,7 +52,7 @@
    .tuy {
     width: 316px;
     height: 259px;
-    padding-left: 84px;
+    padding-left: 165px;
 }
 .text-w2{
     padding-left: 58px;
@@ -87,7 +90,7 @@ footer {
     background-color: hsl(192, 100%, 9%);
     height: 87vh;
     margin-top: 90px;
-    width: 701px;
+    width: 174%;
 }
 .B{
     padding-top: 23px;
@@ -111,7 +114,11 @@ footer {
 .title{
     text-align: center;
 }
+.desc{
+    text-align: center;
+}
 /* Small devices Tablets, Ipads...  */
+/* 
 @media only screen and (min-device-width: 414px) and (max-device-width: 768px) {
     .banner {
         display: flex;
@@ -187,4 +194,4 @@ footer {
         padding: 0;
     }
   
-   
+} */
