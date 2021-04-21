@@ -1,4 +1,4 @@
-/* Extra small devices small mobile phones*/
+/* Extra small devices small mobile phones */
 @media only screen and (max-width: 480px) {
     div.banner {
         display: flex;
@@ -125,80 +125,27 @@ footer {
     text-align: center;
 }
 /* Small devices Tablets, Ipads...  */
-/* 
-@media only screen and (min-device-width: 414px) and (max-device-width: 768px) {
-    .banner {
+@media only screen and (max-width: 768px) {
+    div.banner {
         display: flex;
         flex-direction: column;
         margin-top: 0px;
     }
-    header {
-        background-color: hsl(193, 100%, 96%);
-        background-image: url(../images/bg-hero-desktop.svg);
-        background-repeat: no-repeat;
-        height: 151vh;
-        width: 855px;
+    .gt {
+        display: flex;
+         flex-direction: column-reverse;
+         width: 152%;
+    
+         margin-left: 53px;
     }
-    .tty{
-        width: 103%;
-        height: 6%;
+    .fc {
+        display: flex;
+        flex-direction: column;
+        width: 152%;
     }
-    .btn2 {
-        font-size: 28px;
-        margin-left: 226px
+    .yu {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 152%;
     }
-    .text-w {
-        margin-bottom: 15px;
-        text-align: center;
-    }
-    .desc{
-        font-size: 23px;
-    }
-    .tuy {
-        width: 479px;
-        height: 396px;
-        padding-left: 84px;
-    }
-    .yoi{
-        font-size: 26px;
-    }
-    .tpy {
-        width: 563px;
-        height: 377px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        padding-left: 54px;
-    }
-    .toy {
-        width: 568px;
-        height: 385px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        padding-right: 20px;
-        padding-left: 48px;
-    }
-    footer {
-        background-color: hsl(192, 100%, 9%);
-        height: 87vh;
-        margin-top: 90px;
-        width: 850px;
-    }
-    .foot-right {
-        float: right;
-        padding-right: 232px;
-    }
-    .intro{
-        font-family: 'Poppins';
-        font-weight: 600;
-        text-align: center;
-        font-size: 30px;
-    }
-    body{
-        font-size: 18px;
-        font-weight: 400;
-        font-family:'open sans',sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-  
-} */
+    
