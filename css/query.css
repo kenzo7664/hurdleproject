@@ -148,4 +148,9 @@ footer {
         flex-direction: column-reverse;
         width: 152%;
     }
-    
+    .header{
+        width: 193%;
+    }
+    .footer{
+        width: 193%;
+    }
