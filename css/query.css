@@ -44,6 +44,9 @@
    .tty{
     margin-bottom: 30px;
     padding-left: 0px;
+    width: 96%;
+    height: 448px;
+}
    }
    .tpy{
     margin-left: 93px;
@@ -163,4 +166,6 @@ footer {
     .yu{
         width: 160%;
     }
-    
+    .er{
+
+    }
