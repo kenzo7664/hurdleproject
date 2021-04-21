@@ -163,3 +163,7 @@ footer {
     .yu{
         width: 160%;
     }
+    .foot-right {
+        float: right;
+        padding-right: 456px;
+        /* text-align: center;
