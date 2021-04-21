@@ -8,9 +8,9 @@
     .gt {
         display: flex;
          flex-direction: column-reverse;
-         width: 135%;
+         width: 142%;
     
-         margin-left: 103px;
+         margin-left: 53px;
     }
     .fc {
         display: flex;
@@ -22,9 +22,7 @@
         flex-direction: column-reverse;
         width: 142%;
     }
-    .tty {
-        width: 440px;
-        height: 400px;
+    
     }
     header {
         background-color: hsl(193, 100%, 96%);
@@ -40,11 +38,17 @@
         margin-left: 8px;
     }
    .btn2{
-       margin-left: 268px;
+       margin-left: 169px;
    }
    .tty{
     margin-bottom: 30px;
-    padding-left: 130px;
+    padding-left: 37px;
+   }
+   .tpy{
+    margin-left: 93px;
+    width: 316px;
+    height: 259px;
+
    }
    .text-w{
        margin-bottom: 15px;
@@ -65,7 +69,9 @@
     padding-left: 41px;
 }
 .toy{
-    padding-left: 30px;
+    padding-left: 161px;
+    width: 316px;
+    height: 259px;
 }
 .text-w4{
     padding-left: 45px;
