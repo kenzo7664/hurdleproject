@@ -27,7 +27,7 @@
         background-color: hsl(193, 100%, 96%);
         background-image: url(../images/bg-hero-desktop.svg);
         background-repeat: no-repeat;
-        height: 151vh;
+        height: 174vh;
         width: 174%;
     }
     .logo{
@@ -45,6 +45,7 @@
     padding-left: 0px;
     width: 96%;
     height: 448px;
+    margin-top: 5%;
    }
    
    .tpy{
@@ -97,7 +98,7 @@
 }
 footer {
     background-color: hsl(192, 100%, 9%);
-    height: 87vh;
+    height: 100vh;
     margin-top: 90px;
     width: 174%;
 }
@@ -125,6 +126,7 @@ footer {
 }
 .desc{
     text-align: center;
+    margin-bottom: 10%;
 }
 }
 /* Small devices Tablets, Ipads...  */
