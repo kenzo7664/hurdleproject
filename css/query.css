@@ -1,6 +1,6 @@
 /* Extra small devices small mobile phones */
 @media only screen and (max-width: 480px) {
-    div.banner {
+    .banner {
         display: flex;
         flex-direction: column;
         margin-top: 0px;
@@ -23,7 +23,6 @@
         width: 152%;
     }
     
-    }
     header {
         background-color: hsl(193, 100%, 96%);
         background-image: url(../images/bg-hero-desktop.svg);
@@ -46,8 +45,8 @@
     padding-left: 0px;
     width: 96%;
     height: 448px;
-}
    }
+   
    .tpy{
     margin-left: 93px;
     width: 316px;
@@ -127,6 +126,7 @@ footer {
 .desc{
     text-align: center;
 }
+}
 /* Small devices Tablets, Ipads...  */
 @media only screen and (max-width: 768px) {
     div.banner {
@@ -175,3 +175,4 @@ footer {
    .er{
        margin-left: 25px;
    }
+}
