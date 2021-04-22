@@ -48,8 +48,9 @@ nav{
     width: 600px;
     height: 400px;
 }
-p desc{
+.desc{
     line-height: 29px;
+    margin-bottom: 10%;
 }
 .title{
     font-family: 'poppins', sans-serif;
@@ -97,6 +98,16 @@ p desc{
 .text-w2{
     padding-left: 70px;
     padding-top: 80px;
+    
+}
+.box{
+    border: 1px solid white;
+    margin-left: 24%;
+    margin-right: 13%;
+}
+.box1{
+    border: 1px solid white;
+    margin-right: 42%;
 }
 .tpy{
     width: 281px;

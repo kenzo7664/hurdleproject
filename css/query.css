@@ -130,6 +130,13 @@ footer {
 .er{
     margin-left: 15px;
 }
+.box1{
+    margin-left: 17%;
+    margin-right: 22%;
+}
+.yoi{
+    text-align: center;
+}
 }
 /* Small devices Tablets, Ipads...  */
 @media only screen and (max-width: 768px) {
