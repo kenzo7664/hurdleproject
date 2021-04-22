@@ -49,7 +49,6 @@
    }
    
    .tpy{
-    margin-left: 93px;
     width: 316px;
     height: 259px;
 
@@ -128,6 +127,9 @@ footer {
     text-align: center;
     margin-bottom: 10%;
 }
+.er{
+    margin-left: 15px;
+}
 }
 /* Small devices Tablets, Ipads...  */
 @media only screen and (max-width: 768px) {
@@ -175,6 +177,6 @@ footer {
     padding-left: 126px;
    }
    .er{
-       margin-left: 25px;
+       margin-left: 15px;
    }
 }
