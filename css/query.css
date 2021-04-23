@@ -37,7 +37,7 @@
         margin-left: 8px;
     }
    .btn2{
-       margin-left: 169px;
+       margin-left: 28%;
    }
    
    .tty{
@@ -188,3 +188,7 @@ footer {
    }
    
 }
+@media only screen and (max-width: 1024px) {
+    .text-w{
+       margin-top: -7%;
+    }
