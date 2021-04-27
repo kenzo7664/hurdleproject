@@ -51,6 +51,7 @@
    .tpy{
     width: 316px;
     height: 259px;
+    margin-left: 19%;
 
    }
    .text-w{
@@ -142,7 +143,7 @@ footer {
 }
 }
 /* Small devices Tablets, Ipads...  */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width:481px) and (max-width: 768px) {
     div.banner {
         display: flex;
         flex-direction: column;
