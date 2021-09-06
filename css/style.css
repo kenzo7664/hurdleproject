@@ -1,5 +1,5 @@
 body{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     font-family:'open sans',sans-serif;
     margin: 0;
@@ -9,15 +9,90 @@ header{
     background-image:url(../images/bg-hero-desktop.svg);
     background-color:  hsl(193, 100%, 96%);
     background-repeat: no-repeat;
-    height: 100vh;
+   
+}
+.logo{
+    width: 73%;
 }
 nav{
-    padding: 40px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
 
 }
-.img-box{
+.btn1{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    border:1px solid #fff;
+    padding: 5px;
+    
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 4px 1px 2px #008b8b14;
+}
+
+.banner{
+   align-items: center;
+   padding: 7px;
+}
+
+.title{
+    text-align: center;
+}
+.desc{
+    text-align: center;
+    
+}
+.btn2{
+    text-decoration: none;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    padding: 5px;
+    width: 46%;
+    margin-left: 25%;
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 2px hsl(208deg 11% 55% / 9%) ;
+}
+
+
+.tty{
+   padding: 2%;
+    width: 95%;
+   
+}
+
+.gt{
+    border: 1px solid hsl(209deg 32% 77% / 17%);
+    border-radius: 10px;
+    padding: 10%;
+    margin: 10%;
+    box-shadow:-2px 1px 5px -4px hsl(208, 11%, 55%);
+    
+}
+.intro{
+    text-align: center;
+}
+.yoi{
+    text-align: center;
+}
+.tuy{
+   width: 106%;
+}
+.tpy{
+    width: 60px;
+    height: 40px;
+}
+
+
+
+.toy{
+    width: 60px;
+    height: 40px;
+}
+
+/* .img-box{
     margin-left: 56px;
 }
 .button-box{
@@ -45,8 +120,8 @@ nav{
 }
 
 .tty{
-    width: 600px;
-    height: 400px;
+    width: 60px;
+    height: 40px;
 }
 .desc{
     line-height: 29px;
@@ -219,4 +294,4 @@ footer{
     border-radius: 19px;
     box-shadow: 1px 1px 1px 2px hsl(208deg 11% 55% / 9%) ;
 }
-
+ */
