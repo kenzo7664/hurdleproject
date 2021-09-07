@@ -150,206 +150,44 @@ footer{
 .yookos{
     text-align: center;
 }
-/* .img-box{
-    margin-left: 56px;
-}
-.button-box{
-    margin-right: 56px;
-}
-.btn1{
-    text-decoration: none;
-    color: #000;
-    font-weight: 700;
-    border:1px solid #fff;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 21px;
-    background-color: white;
-    box-shadow: 0px 4px 1px 2px #008b8b14;
-}
-.banner{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 90px;
-    margin-left: 54px;
-    margin-right: 54px;
-}
 
-.tty{
-    width: 60px;
-    height: 40px;
-}
-.desc{
-    line-height: 29px;
-    margin-bottom: 10%;
-}
-.title{
-    font-family: 'poppins', sans-serif;
-    font-weight: 600;
-}
-.text-w{
-    margin-top: 54px;
-}
-.btn2{
-    text-decoration: none;
-    color: white;
-    background-color: hsl(322, 100%, 66%);
-    margin-left: 54px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border: 1px solid hsl(322, 100%, 66%);
-    border-radius: 19px;
-    box-shadow: 1px 1px 1px 2px hsl(208deg 11% 55% / 9%) ;
-}
-.ucom{
-    background-color: blue;
-    height: 80px;
-}
-.tuy{
-    width: 281px;
-    height: 300px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 20px;
-}
+@media only screen and (min-width: 800px) {
+    .banner-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .banner{
+        padding-top:12%;
+    }
 
-.gt{
-    border: 1px solid hsl(209deg 32% 77% / 17%);
-    border-radius: 10px;
-    margin-top: 100px;
-    margin-bottom: 35px;
-    margin-left: 56px;
-    margin-right: 56px;
-    box-shadow:-2px 1px 5px -4px hsl(208, 11%, 55%);
-    display: flex;
-    justify-content: space-between;
-}
-.text-w2{
-    padding-left: 70px;
-    padding-top: 80px;
+    .tty{
+        width: 61%;
+    }
+    .gt{
+        display: flex;
+    }
+    .fc{
+        display: flex;
+        justify-content: space-between;
+    }
+    .yu{
+        display: flex;
+    }
+    .text-w3 {
+       margin-left: 5%;
+    }
+    .er{
+        margin-top: 9%;
+    }
+    footer{
+        padding: 8%;
+    }
+    .footer-box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .foot-right{
+        text-align: center;
+    }
     
 }
-.box{
-    border: 1px solid white;
-    margin-left: 24%;
-    margin-right: 13%;
-}
-.box1{
-    border: 1px solid white;
-    margin-right: 42%;
-}
-.tpy{
-    width: 281px;
-    height: 300px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 54px; 
-}
-.fc{
-    border: 1px solid hsl(209deg 32% 77% / 17%);
-    border-radius: 10px;
-    margin-left: 56px;
-    margin-right: 56px;
-    box-shadow:-2px 1px 5px -4px hsl(208, 11%, 55%);
-    display: flex;
-    justify-content: space-between;
-}
-.text-w3{
-    padding-right:50px;
-    padding-top: 85px;
-}
-.toy{
-    width: 281px;
-    height: 300px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 20px;
-}
-.yu{
-    border: 1px solid hsl(209deg 32% 77% / 17%);
-    border-radius: 10px;
-    margin-top: 32px;
-    margin-left: 56px;
-    margin-right: 56px;
-    box-shadow:-2px 1px 5px -4px hsl(208, 11%, 55%);
-    display: flex;
-    justify-content: space-between; 
-}
-.text-w4{
-    padding-left: 70px;
-    padding-top: 80px;
-}
-.vbot{
-    display: flex;
-    justify-content: center;
-    ;
-    
-}
-.er{
-    border: 2px solid hsl(208deg 11% 55% / 26%);
-    margin-top: 62px;
-    border-radius: 10px;
-    width: 500px;
-    padding-left: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    position: relative;
-    top: 63px;
-    background-color: #fff
-}
-footer{
-    background-color: hsl(192, 100%, 9%);
-    height: 350px;
-    color: #fff;
-}
-.footer-box{
-   
-    display: flex;
-    justify-content: space-between;
-    padding-top: 100px;
-    padding-left: 56px;
-    padding-right: 50px;
-    
-}
-
-.B{
-    padding-top: 50px;
-    padding-left: 0px;
-}
-.c{
-    padding-top: 50px;
-}
-.b-child{
-    list-style: none;
-}
-.c-child{
-    list-style: none;
-}
-.foot-right{
-    float: right;
-}
-.ender{
-    padding-left: 15px;
-    margin-top: -6px;
-    margin-bottom: 29px;
-}
-.btn3{
-    text-decoration: none;
-    color: white;
-    background-color: hsl(322, 100%, 66%);
-    margin-left: 90px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border: 1px solid hsl(322, 100%, 66%);
-    border-radius: 19px;
-    box-shadow: 1px 1px 1px 2px hsl(208deg 11% 55% / 9%) ;
-}
- */
